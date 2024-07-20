@@ -177,6 +177,50 @@ button , a {
     color: white;
 }
 
+.business-section{
+    padding-top: 3rem;
+}
+
+.common-section{
+    padding: 0 0 9rem 0;
+}
+
+.carousel .card {
+    background-color: #262631;
+    color: white;
+    transition: all 0.3 linear;
+
+}
+
+.carousel-inner .card p {
+    color: white;
+}
+
+.carousel-inner .card:hover{
+    background-color: #fff;
+    color: #262631;
+}
+
+.carousel-inner .card p:hover {
+    color: black;
+}
+.fa-star{
+    color: var(--bs-supporting-color);
+}
+
+
+.carousel-indicators {
+    bottom: -38px;
+    /* margin-top: 30px; */
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: var(--bs-supporting-color);
+}
+
+
 
 
 
